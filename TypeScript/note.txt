@@ -1,0 +1,2 @@
+run typescript file:
+-> npx ts-node-dev --respawn [fileName].ts
