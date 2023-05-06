@@ -1,2 +1,1 @@
-run typescript file:
--> npx ts-node-dev --respawn [fileName].ts
+run server: npx ts-node-dev --respawn .\src\ index.ts

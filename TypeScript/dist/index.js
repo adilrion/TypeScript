@@ -1,3 +1,4 @@
 "use strict";
-const course = "next Level web development";
-console.log(course);
+const my = 'adil mahmoud';
+console.log(my);
+console.log("others");
