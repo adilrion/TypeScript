@@ -40,6 +40,26 @@ type arrayObj = {
     age: number
 }
 
-const arryObject: arrayObj[] = [{ name: 'abul', age: 13 }, { name: 'kabul', age: 22 }]
+const arrayObject: arrayObj[] = [{ name: 'abul', age: 13 }, { name: 'kabul', age: 22 }]
 
-problem2(arryObject);
+// problem2(arrayObject);
+
+/* 
+
+Problem 3:
+Create a TypeScript program that uses a generic function to reverse an array of strings, and takes a variable number of strings to the array using rest parameters. Provide an example of calling the function with a variable number of strings.
+
+
+*/
+
+const reverseArray = <T>(parameter: T[]): T[] => {
+    return parameter.reverse();
+}
+
+console.log(reverseArray<string>(['adil', 'mahmoud', 'rion']));
+
+const reverseArrayRestMathod = <T>(...param: T[]): T[] => {
+    return reverseArray(param);
+}
+
+console.log(reverseArrayRestMathod<string[]>(['Hardin', 'Tessa', 'Iron Man']));
