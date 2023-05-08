@@ -1,5 +1,5 @@
-const my:string = 'adil mahmoud';
+/* const my:string = 'adil mahmoud';
 
 
 console.log(my);
-console.log("others me")
+console.log("others me"); */
